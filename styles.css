@@ -75,7 +75,7 @@ a {
 
 #nav a {
     font-family: Montserrat;
-    font-size: 35px;
+    font-size: 18px;
     display: table-cell;
     transition-duration: inherit;
     color: #f2f2f2;
@@ -98,14 +98,14 @@ a {
 }
 
 #info h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #f2f2f2;
 }
 
 #info p {
     font-size: 25px;
     color: #f6f6f6;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-right: 13%;
     margin-left: 13%;
 }
@@ -134,7 +134,7 @@ a {
     z-index: 1;
     width: 100%;
     height: fill;
-    font-size: 100px;
+    font-size: 80px;
     padding-top: 35%;
     padding-bottom: 60%;
     color: #f1f1f1;
@@ -159,13 +159,13 @@ a {
 }
 
 #contactbar p {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 #contactbar h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 17px;
 }
 
@@ -200,7 +200,7 @@ a {
 
 #contactexit {
     padding-top: 17px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
 }
 
@@ -214,7 +214,7 @@ a {
     padding-top: 37px;
     padding-bottom: 25px;
     top: 150px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: Montserrat;
     background-color: #f2f2f2;
     color: #777777;
@@ -245,7 +245,7 @@ a {
     z-index: 16;
     margin-left: 67px;
     margin-top: 67px;
-    font-size: 40px;
+    font-size: 20px;
     color: #f1f1f1;
     font-family: Montserrat;
     position: absolute;
@@ -254,9 +254,9 @@ a {
 
 #centertext {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 150px;
     width: 100%;
-    font-size: 50px;
+    font-size: 36px;
     font-family: Montserrat;
     position: absolute;
     color: #f2f2f2;
@@ -271,7 +271,7 @@ a {
 
 #reviews h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Montserrat;
     color: #ecf0f1;
     margin-bottom: 7px;
@@ -287,13 +287,13 @@ a {
     margin-top: 30px;
     margin-left: 7%;
     margin-right: 7%;
-    font-size: 18px;
+    font-size: 13px;
     color: #ecf0f1;
 }
 
 #reviews i {
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 #reviews-cntr {
@@ -312,7 +312,7 @@ a {
 }
 
 #comparison p {
-    font-size: 25px;
+    font-size: 17px;
     text-align: center;
     color: #f2f2f2;
 }
@@ -321,7 +321,7 @@ a {
     text-align: center;
     list-style-type: none;
     margin-top: 30px;
-    font-size: 23px;
+    font-size: 13px;
     color: #f2f2f2;
     width: 50%;
     display: inline-block;
@@ -363,24 +363,24 @@ a {
 
 #final-exhort {
     width: 100%;
-    height: 1000px;
+    height: 1300px;
     background-size: cover;
     background-attachment: fixed;
     background-image: url('http://www.anytimemoverstx.com/wp-content/uploads/2014/07/airplanes-fly-in-sunset-wallpaper.jpg');
     color: #ff5555;
-    font-size: 150px;
+    font-size: 140px;
     position: relative;
 }
 
 #final-exhort p {
     position: absolute;
-    margin-top: 500px;
+    margin-top: 300px;
     width: 100%;
     text-align: center;
 }
 
 #final-exhort span {
-    font-size: 60px;
+    font-size: 53px;
     position: absolute;
     margin-top: 530px;
     width: 100%;
@@ -398,16 +398,17 @@ a {
     position: relative;
     text-align: center;
     overflow-y: scroll;
+    font-size:8px;
 }
 
 #copyrightspan {
     font-family: Montserrat;
-    font-size: 17px;
+    font-size: 8px;
 }
 
 #copyrightspan2 {
     font-family: Montserrat;
-    font-size: 13px;
+    font-size: 8px;
 }
 
 #anony {
@@ -433,7 +434,7 @@ a {
 
 #input-box {
     width: 100%;
-    height: 38%;
+    height: 40%;
     background-color: #52d5f5;
     padding-top: 10px;
     position: relative;
@@ -449,9 +450,9 @@ input[type=text] {
     width: 40%;
     height: 13%;
     background-color: #e7f9fe;
-    font-size: 4px;
-    border: 20px solid #f2f2f2;
-    box-shadow: inset 0px 0px 20px #adacac, inset 0px 0px 10px #f5f5f5;
+    font-size: 11px;
+    border: 8px solid #f2f2f2;
+    box-shadow: inset 0px 0px 3px #adacac, inset 0px 0px 10px #f5f5f5;
     color: #777;
     cursor:text;
 }
@@ -469,9 +470,9 @@ textarea {
     margin-left: 18%;
     background-color: #e7f9fe;
     background-color: #e7f9fe;
-    font-size: 13px;
-    border: 6.6px solid #f2f2f2;
-    box-shadow: inset 0px 0px 20px #adacac, inset 0px 0px 10px #f5f5f5;
+    font-size: 11px;
+    border: 8px solid #f2f2f2;
+    box-shadow: inset 0px 0px 3px #adacac, inset 0px 0px 10px #f5f5f5;
     resize: none;
     y-overflow: scroll;
     position: absolute;
@@ -481,13 +482,13 @@ textarea {
 #revSubmit {
     font-family: Montserrat;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 13px;
     color: #777;
     background-color: #f2f2f2;
     height: 10%;
     width: 15%;
     border: none;
-    box-shadow: 0px 0px 20px #0ebfe9;
+    box-shadow: 0px 0px 10px #0ebfe9;
     margin-top: 140px;
     margin-right: 42.5%;
     margin-left: 42.5%;
@@ -506,8 +507,8 @@ textarea {
     width: 94%;
     margin-right: 3%;
     margin-left: 3%;
-    margin-top: 23px;
-    margin-bottom: 23px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #e6e4e4;
     color: #777;
     box-shadow: 0px 0px 6.6px #999;
@@ -524,19 +525,20 @@ textarea {
 
 #rev-name {
     font-family:Montserrat;
-    font-size: 17px;
+    font-size: 11px;
+    margin-top:5px;
     position: absolute;
 }
 
 #rev-country {
     color:#0bb5ff;
-    font-size:12px;
-    margin-top:2.3px;
+    font-size:6px;
+    margin-top:2px;
     font-family:Montserrat;
 }
 
 #rev-comments {
-    font-size:13px;
+    font-size:9px;
     display:block;
     overflow-x:none;
     margin-bottom:13px;
