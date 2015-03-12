@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <link rel='stylesheet' href='styles.css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src='reviews.js'></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
+    <meta charset='UTF-8'>
+    <title>About Us</title>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div id='contactbar'>
+            <h1>Contact Us</h1>
+            <br>
+            <p>We're always happy to hear your input on how we're doing. You can <a class='contactlink' id='email' href='mailto:risingsunairlines@gmail.com'>email</a> us, <a class='contactlink' id='twitter' href='https://twitter.com/risingsunair'>tweet</a> us, or <a class='contactlink' id='facebook' href='https://www.facebook.com/profile.php?id=100009142787635'>friend</a> us.</p>
+            <br>
+            <br><a class='contactlink' id='contactexit'><i class="fa fa-arrow-circle-left"></i></a>
+        </div>
+        <div id='nav'><a href='index.html'>Home</a><a>About Us</a><a>Locations</a><a>Prices</a><a>Buy A Ticket</a><a id='contact-nav'>Contact Us</a>
+        </div>
+        <div id='a-info'> </div>
+        <div id='review-section' data-ng-app="rsReviews" data-ng-controller='rsReviewsCtrl'>
+            <div id='review-box'>
+                <div id='input-box'>
+                    <br>
+                    <input type='text' value='Full Name' data-ng-model='revInput.fullName' data-ng-init='revInput.fullName="Full Name"' onblur="if (this.value == '') {this.value = 'Full Name';}" onfocus="if (this.value == 'Full Name') {this.value = '';}">
+                    <br>
+                    <input type='text' data-ng-model='revInput.country' data-ng-init='revInput.country="Country"' value='Country' onblur="if (this.value == '') {this.value = 'Country';}" onfocus="if (this.value == 'Country') {this.value = '';}">
+                    <br>
+                    <textarea rows='5' data-ng-model='revInput.comments' data-ng-init='revInput.comments="Comments"' cols='50' onblur="if (this.value == '') {this.value = 'Comments';}" onfocus="if (this.value == 'Comments') {this.value = '';}">Comments</textarea>
+                    <br>
+                    <button id='revSubmit' type='button' data-ng-click='newReview()'>Submit</button>
+                </div>
+                <div id='review' ng-repeat='review in reviews'>
+                    <p id='rev-name'>{{review.fullName}}</p>
+                    <br>
+                    <p id='rev-country'>{{review.country}}</p>
+                    <br>
+                    <p id='rev-comments'>{{review.comments}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        @media screen and (min-width: 6000px) {
+            #input-box {
+                height: 45%;
+            }
+            #revSubmit {
+                margin-top: 550px;
+            }
+        }
+    </style>
+</body>
+
+</html>
