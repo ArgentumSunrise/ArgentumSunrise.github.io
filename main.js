@@ -47,7 +47,7 @@ $(document).ready(function () {
             if (eea <= 5) {
                 setInterval(function () {
                     eea++;
-                    $('#a-e-i-' + eea).show(50).delay(3000).hide(50);
+                    $('#a-e-i-' + eea).css('z-index','100+eea').show(50).delay(3000).hide(50);
                }, 2100);
            }
             setTimeout(function () {
