@@ -159,18 +159,25 @@ a {
     color: #c0392b;
 }
 
-#usually {
+#usually, #haters {
     z-index: 1;
     width: 100%;
     height: fill;
     font-size: 80px;
     padding-top: 35%;
     padding-bottom: 60%;
-    color: #f1f1f1;
     font-family: Montserrat;
     text-align: center;
     overflow-x: hidden;
     background-color: #d0cfcf;
+}
+
+#usually {
+    color:#f1f1f1;
+}
+
+#haters {
+    color:#ff5555;
 }
 
 #contactbar {
