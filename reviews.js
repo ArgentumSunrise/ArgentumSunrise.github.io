@@ -35,7 +35,7 @@ function rsReviewsCtrl($scope) {
 
     $scope.newReview = function () {
         if ($scope.revInput.fullname != 'Full Name' && $scope.revInput.country != "Country" && $scope.revInput.comments != 'Comments') {
-            $scope.reviews.push({
+            $scope.reviews.splice(0,0,{
                 fullName: $scope.revInput.fullName,
                 country: $scope.revInput.country,
                 comments: $scope.revInput.comments
