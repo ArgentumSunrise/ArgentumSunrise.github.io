@@ -448,11 +448,32 @@ a {
     color: #ff5555;
 }
 
+#a-info {
+    height:100px;
+    padding-top:150px;
+}
+#a-info p {
+    color:#f2f2f2;
+    font-size:20px;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+}
 #review-section {
     padding-top: 330px;
-    height: 1330px;
+    height: 1500px;
 }
 
+#review-text {
+    width:100%;
+    text-align:center;
+    margin-right:10%;
+    margin-left:10%;
+    margin-top: 100px;
+    margin-bottom:100px;
+    font-size: 20px;
+    color:#52d5f5;
+}
 #review-box {
     width: 65%;
     margin-left: 17.5%;
