@@ -466,6 +466,7 @@ a {
     font-size:40px;
 }
 #review-section {
+    padding-top:100px;
     height: 1300px;
     background-color:#adacac;
 }
