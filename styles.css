@@ -449,23 +449,29 @@ a {
 }
 
 #a-info {
-    height:100px;
-    padding-top:150px;
+    height:150px;
+    padding-top:200px;
+    text-align:center;
 }
 #a-info p {
     color:#f2f2f2;
     font-size:20px;
-    text-align:center;
+    margin-top:25px;
     margin-left:10%;
     margin-right:10%;
+}
+
+#a-info h1 {
+    color:#ff5555;
+    font-size:40px;
 }
 #review-section {
     padding-top: 330px;
     height: 1500px;
+    background-color:#adacac;
 }
 
 #review-text {
-    width:100%;
     text-align:center;
     margin-right:10%;
     margin-left:10%;
