@@ -214,7 +214,7 @@ a {
     height: 50px;
     padding-top: 37px;
     padding-bottom: 25px;
-    top: 150px;
+    top: 125px;
     font-size: 18px;
     font-family: Montserrat;
     background-color: #f2f2f2;
@@ -256,8 +256,8 @@ a {
 #centertext {
     text-align: center;
     width: 100%;
-    position:relative;
-    margin:0 auto;
+    position:absolute;
+    margin-top:30%;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
@@ -395,12 +395,12 @@ a {
     background-color: #adacac;
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 23px;
-    padding-bottom: 23px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     position: relative;
     text-align: center;
     overflow-y: scroll;
-    font-size:9px;
+    font-size: 9px;
 }
 
 #copyrightspan {
