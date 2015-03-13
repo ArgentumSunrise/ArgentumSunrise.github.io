@@ -257,8 +257,6 @@ a {
 #centertext {
     text-align: center;
     width: 100%;
-    position:absolute;
-    top:15px;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
