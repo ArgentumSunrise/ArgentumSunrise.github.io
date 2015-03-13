@@ -232,7 +232,7 @@ a {
     margin-top: 600px;
     height: 660px;
     background-color: #adacac;
-    position: absolute;
+    position: relative;
 }
 
 #slideshow img {
@@ -257,6 +257,7 @@ a {
 #centertext {
     text-align: center;
     width: 100%;
+    margin-top:100px;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
