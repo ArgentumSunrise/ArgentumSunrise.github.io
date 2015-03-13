@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-@media screen and (max-width:750px){
+@media screen and (max-width:800px){
     .wrapper {
         display:none;
     }
     #small-screen {
-        display:block;
+        display:inline;
     }
     }
 
