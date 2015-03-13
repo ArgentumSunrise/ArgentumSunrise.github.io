@@ -256,6 +256,7 @@ a {
 #centertext {
     text-align: center;
     width: 100%;
+    position:absolute;
     top:15px;
     font-size: 40px;
     font-family: Montserrat;
@@ -395,7 +396,7 @@ a {
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     position: relative;
     text-align: center;
     overflow-y: scroll;
