@@ -1,12 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-@media screen and (max-width:800px){
-    html {
-        display:none;
-    }
-}
-
 @media screen and (max-width: 1100px){
     #copyright {
         height: 170px;
@@ -26,6 +20,12 @@
     
     #centertext {
         margin-top:230px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    html {
+        display:none;
     }
 }
 
