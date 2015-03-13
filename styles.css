@@ -257,7 +257,7 @@ a {
     text-align: center;
     width: 100%;
     position:absolute;
-    margin:0 auto;
+    margin-top:100px;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
@@ -365,7 +365,7 @@ a {
 
 #final-exhort {
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background-size: cover;
     background-attachment: fixed;
     background-image: url('http://www.anytimemoverstx.com/wp-content/uploads/2014/07/airplanes-fly-in-sunset-wallpaper.jpg');
@@ -384,7 +384,7 @@ a {
 #final-exhort span {
     font-size: 50px;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 350px;
     width: 100%;
     text-align: center;
 }
@@ -400,17 +400,17 @@ a {
     position: relative;
     text-align: center;
     overflow-y: scroll;
-    font-size:7px;
+    font-size:9px;
 }
 
 #copyrightspan {
     font-family: Montserrat;
-    font-size: 7px;
+    font-size: 9px;
 }
 
 #copyrightspan2 {
     font-family: Montserrat;
-    font-size: 7px;
+    font-size: 9px;
 }
 
 #anony {
