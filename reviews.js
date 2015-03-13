@@ -17,7 +17,7 @@ function rsReviewsCtrl($scope) {
             fullName: 'Victor Halsey',
             country: 'New Zealand',
             comments: "I was once a pilot for Rising Sun. I was in law school, trying to become a public defender, until one day a man in a black suit came, shot me with a tranquilizer dart, and threw me into the trunk of an unmarked van. I was then driven into an abandoned factory building, where more men in black suits made us study aerodynamics at gunpoint. This lasted about a week, then they shoved me into the cockpit of a 727 and told me to get cracking. I still don't know how I survived that flight, especially as low on blood as I was. It took me ten years, five teeth, six fingers, and my left eye to earn my freedom in the deathball arena, and at night, I still have nightmares about their carry-on policy."
-        }
+        },
         {
             fullName: 'Dimitri Lebedev',
             country: 'Russia',
