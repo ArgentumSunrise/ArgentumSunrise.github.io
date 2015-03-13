@@ -56,7 +56,7 @@ a {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 30px;
-    height: 55px;
+    height: 45px;
     background-color: #adacac;
     opacity: .6;
     position: fixed;
@@ -75,7 +75,7 @@ a {
 
 #nav a {
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 19px;
     display: table-cell;
     transition-duration: inherit;
     color: #f2f2f2;
@@ -86,7 +86,7 @@ a {
 }
 
 #nav a:hover {
-    text-shadow: 0px 0px 10px #888, 0px 0px 75px #999;
+    text-shadow: 0px 0px 10px #888, 0px 0px 15px #999;
     color: #666;
 }
 
@@ -257,7 +257,7 @@ a {
     text-align: center;
     width: 100%;
     position:absolute;
-    margin-top:50px;
+    margin:0 auto;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
@@ -365,12 +365,12 @@ a {
 
 #final-exhort {
     width: 100%;
-    height: 1300px;
+    height: 900px;
     background-size: cover;
     background-attachment: fixed;
     background-image: url('http://www.anytimemoverstx.com/wp-content/uploads/2014/07/airplanes-fly-in-sunset-wallpaper.jpg');
     color: #ff5555;
-    font-size: 140px;
+    font-size: 110px;
     position: relative;
 }
 
@@ -382,9 +382,9 @@ a {
 }
 
 #final-exhort span {
-    font-size: 53px;
+    font-size: 50px;
     position: absolute;
-    margin-top: 450px;
+    margin-top: 400px;
     width: 100%;
     text-align: center;
 }
@@ -400,17 +400,17 @@ a {
     position: relative;
     text-align: center;
     overflow-y: scroll;
-    font-size:10px;
+    font-size:7px;
 }
 
 #copyrightspan {
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 7px;
 }
 
 #copyrightspan2 {
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 7px;
 }
 
 #anony {
