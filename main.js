@@ -17,7 +17,7 @@ $(document).ready(function () {
         };
         if (i > 15) {
             $('#cornertext').css('display', 'none');
-            $('#slideshow').css('padding-top','200px')
+            $('#slideshow').css('padding-top','100px').css('height','400px')
             $('#centertext').fadeIn(500);
 
         };
