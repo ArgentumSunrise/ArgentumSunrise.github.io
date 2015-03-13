@@ -256,6 +256,8 @@ a {
 #centertext {
     text-align: center;
     width: 100%;
+    position:absolute;
+    margin-top:50px;
     font-size: 40px;
     font-family: Montserrat;
     color: #f2f2f2;
@@ -353,7 +355,8 @@ a {
 
 #comparison h6 {
     font-size: 7px;
-    margin-top: 5px;
+    margin-top: 7px;
+    margin-bottom:7px;
 }
 
 #li-us {
@@ -397,17 +400,17 @@ a {
     position: relative;
     text-align: center;
     overflow-y: scroll;
-    font-size:15px;
+    font-size:10px;
 }
 
 #copyrightspan {
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 #copyrightspan2 {
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 #anony {
