@@ -360,12 +360,8 @@ a {
 #reviews-cntr {
     width: 100%;
     padding-top: 4%;
-    padding-bottom: 6%;
+    padding-bottom: 8%;
     background-color: #adacac;
-}
-
-#reviews-cntr:last-child {
-    margin-bottom:60px;
 }
 
 #comparison {
