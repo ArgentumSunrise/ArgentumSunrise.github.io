@@ -482,7 +482,7 @@ a {
 #a-info {
     height:350px;
     padding-top:200px;
-    padding-bottom:50px;
+    padding-bottom:60px;
     text-align:center;
 }
 #a-info p {
@@ -510,7 +510,6 @@ a {
     margin-bottom:100px;
     font-size: 20px;
     color:#0075fb;
-    text-shadow: 0px 0px 2px #1d88ea;
 }
 #review-box {
     width: 65%;
