@@ -2,6 +2,7 @@ $(document).ready(function () {
     var recursive = 0;
     var i = 0;
     var eea = 1;
+    var lastScroll = 0;
     var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro'];
 
     setInterval(function () {
@@ -21,6 +22,24 @@ $(document).ready(function () {
 
         };
     }, 3250);
+
+    $(window).scroll(function(event){
+    var st = $(this).scrollTop();
+        if (st > lastScroll){
+                $('#nav').slideUp(400)
+            } else {
+                $('#nav').slideDown(400);
+            }
+        ScrollTop = st;
+});
+    
+    $('#scrolledUpNav').mouseenter(function(){
+        setTimeout(function(){$('#nav').slideDown(400)}, 200);
+    })
+    
+    $('#scrolledUpNav').mouseleave(function(){
+        setTimeout(function(){$('#nav').slideUp(400)}, 200);
+    })
 
     $('#home-nav').click(function () {
         recursive++;
