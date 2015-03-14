@@ -162,7 +162,7 @@ a {
 #usually, #haters {
     z-index: 1;
     width: 100%;
-    height: fill;
+    height: 100%;
     font-size: 80px;
     padding-top: 35%;
     padding-bottom: 60%;
@@ -247,7 +247,7 @@ a {
 
 .recursive {
     width: 100%;
-    height: 30px;
+    height: 40px;
     padding-top: 14px;
     padding-bottom: 14px;
     top: 125px;
@@ -265,7 +265,7 @@ a {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    height: 700px;
+    height: 600px;
     background-color: #adacac;
     position: relative;
 }
@@ -296,7 +296,7 @@ a {
     font-family: Montserrat;
     color: #f2f2f2;
     display: none;
-    margin-top:280px;
+    margin-top:230px;
     position:absolute;
 }
 
