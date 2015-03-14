@@ -506,6 +506,7 @@ a {
     margin-bottom:100px;
     font-size: 20px;
     color:#67c8ff;
+    text-shadow: 0px 0px 2px #1d88ea;
 }
 #review-box {
     width: 65%;
