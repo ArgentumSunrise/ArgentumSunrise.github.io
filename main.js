@@ -2,8 +2,6 @@ $(document).ready(function () {
     var recursive = 0;
     var i = 0;
     var eea = 1;
-    var navScroll = 0;
-    var navClick = 0;
     var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro'];
 
     setInterval(function () {
