@@ -7,7 +7,7 @@
     }
     
     #final-exhort p {
-        font-size: 90;
+        font-size: 90px;
     }
     
     #final-exhort span {
@@ -15,11 +15,11 @@
     }
     
     #slideshow {
-        height: 600px;
+        height: 500px;
     }
     
     #centertext {
-        margin-top:230px;
+        margin-top:180px;
     }
 }
 
