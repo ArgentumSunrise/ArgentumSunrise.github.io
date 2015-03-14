@@ -65,6 +65,7 @@ a {
 }
 
 #smallscreen p {
+    margin-top:40%;
     font-family: Montserrat;
     font-size: 30px;
     color: #adacac;
