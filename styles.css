@@ -124,6 +124,7 @@ a {
 
 #nav i {
     position:absolute;
+    display:block;
     color: #f2f2f2;
     margin-left:auto;
     margin-right:auto;
