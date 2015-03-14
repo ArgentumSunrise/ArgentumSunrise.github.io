@@ -122,6 +122,10 @@ a {
     box-shadow: 0px 0px 16px #444444;
 }
 
+.nav-up {
+    height: 15px;
+}
+
 #nav a {
     font-family: Montserrat;
     font-size: 19px;
@@ -505,7 +509,7 @@ a {
     margin-left:10%;
     margin-bottom:100px;
     font-size: 20px;
-    color:#67c8ff;
+    color:#0075fb;
     text-shadow: 0px 0px 2px #1d88ea;
 }
 #review-box {
