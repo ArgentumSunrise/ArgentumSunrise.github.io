@@ -58,7 +58,7 @@ a {
     width:100%;
     height:100%;
     text-align:center;
-    background-color:#adacac;
+    background-color:#d0cfcf;
     overflow-y:hidden;
     overflow-x:hidden;
     z-index:-10;
@@ -69,7 +69,7 @@ a {
     margin-top:30%;
     font-family: Montserrat;
     font-size: 30px;
-    color: #d0cfcf;
+    color: #f2f2f2;
     max-width: 80%;
     margin-right: 10%;
     margin-left: 10%;
