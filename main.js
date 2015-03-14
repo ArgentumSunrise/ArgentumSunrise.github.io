@@ -30,7 +30,7 @@ $(document).ready(function () {
             } else {
                 $('#nav').slideDown(400);
             }
-        ScrollTop = st;
+        lastScroll = st;
 });
     
     $('#scrolledUpNav').mouseenter(function(){
