@@ -59,7 +59,7 @@ a {
     height:100%;
     text-align:center;
     background-color:#d0cfcf;
-    overflow-y:hidden;
+    overflow-y:scroll;
     overflow-x:hidden;
     z-index:-10;
     position: fixed;
