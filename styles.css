@@ -660,19 +660,19 @@ textarea:focus {
 
 #rev-name {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 14px;
     position: absolute;
 }
 
 #rev-country {
     color: #0bb5ff;
-    font-size: 35px;
+    font-size: 9px;
     margin-top: 7px;
     font-family: Montserrat;
 }
 
 #rev-comments {
-    font-size: 40px;
+    font-size: 12px;
     display: block;
     overflow-x: none;
     margin-bottom: 40px;
