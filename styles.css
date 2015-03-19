@@ -184,21 +184,27 @@ a {
     z-index: 1;
     width: 100%;
     height: 100%;
+    display: table;
     font-size: 80px;
-    padding-top: 35%;
-    padding-bottom: 60%;
     font-family: Montserrat;
     text-align: center;
     overflow-x: hidden;
+    animation-duration;
     background-color: #d0cfcf;
 }
 
-#usually {
+#usually p {
     color: #f1f1f1;
 }
 
-#haters {
+#haters p {
     color: #ff5555;
+}
+
+#usually p,
+#haters p {
+    vertical-align: middle;
+    display: table-cell;
 }
 
 #contactbar {
