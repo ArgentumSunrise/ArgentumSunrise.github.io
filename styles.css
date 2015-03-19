@@ -642,8 +642,8 @@ textarea:focus {
     width: 94%;
     margin-right: 3%;
     margin-left: 3%;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
     background-color: #e6e4e4;
     color: #777;
     box-shadow: 0px 0px 20px #999;
@@ -660,20 +660,20 @@ textarea:focus {
 
 #rev-name {
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 5px;
     position: absolute;
 }
 
 #rev-country {
     color: #0bb5ff;
-    font-size: 9px;
-    margin-top: 5px;
+    font-size: 11px;
+    margin-top: 4px;
     font-family: Montserrat;
 }
 
 #rev-comments {
-    font-size: 12px;
+    font-size: 13px;
     display: block;
     overflow-x: none;
     margin-bottom: 13px;
