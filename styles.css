@@ -47,6 +47,11 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
 }
 
 #smallscreen {
@@ -106,12 +111,6 @@ a {
     position: fixed;
     display: table;
     table-layout: fixed;
-    transition-duration: .5s;
-    -webkit-transition-duration: .5s;
-    -o-transition-duration: .5s;
-    -moz-transition-duration: .5s;
-    -ms-transition-duration: .5s;
-    transiton: ease;
     transition-property: text-shadow, color, cursor, opacity;
     z-index: 5;
     box-shadow: 0px 0px 16px #444444;
@@ -125,7 +124,6 @@ a {
     font-family: Montserrat;
     font-size: 19px;
     display: table-cell;
-    transition-duration: inherit;
     color: #f2f2f2;
 }
 
