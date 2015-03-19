@@ -44,14 +44,17 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    cursor: pointer;
-    text-decoration: none;
+a, #nav {
     transition-duration: .5s;
     -webkit-transition-duration: .5s;
     -o-transition-duration: .5s;
     -moz-transition-duration: .5s;
     -ms-transition-duration: .5s;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #smallscreen {
@@ -256,7 +259,6 @@ a {
     padding-top: 17px;
     font-size: 40px;
     color: black;
-    cursor: pointer;
 }
 
 #contactexit:hover {
