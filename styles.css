@@ -1,31 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
     #copyright {
         height: 170px;
     }
-    
     #final-exhort p {
         font-size: 90px;
     }
-    
     #final-exhort span {
         margin-top: 335px;
     }
-    
     #slideshow {
         height: 500px;
     }
-    
     #centertext {
-        margin-top:180px;
+        margin-top: 180px;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .wrapper {
-        display:none;
+        display: none;
     }
 }
 
@@ -55,18 +50,18 @@ a {
 }
 
 #smallscreen {
-    width:100%;
-    height:100%;
-    text-align:center;
-    background-color:#d0cfcf;
-    overflow-y:scroll;
-    overflow-x:hidden;
-    z-index:-10;
-    position:absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #d0cfcf;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -10;
+    position: absolute;
 }
 
 #smallscreen p {
-    margin-top:7%;
+    margin-top: 7%;
     font-family: Montserrat;
     font-size: 10px;
     color: #f2f2f2;
@@ -145,7 +140,7 @@ a {
 
 #info {
     width: 100%;
-    height: 380px;
+    padding-bottom: 100px;
     padding-top: 200px;
     text-align: center;
 }
@@ -183,7 +178,8 @@ a {
     color: #c0392b;
 }
 
-#usually, #haters {
+#usually,
+#haters {
     z-index: 1;
     width: 100%;
     height: 100%;
@@ -197,11 +193,11 @@ a {
 }
 
 #usually {
-    color:#f1f1f1;
+    color: #f1f1f1;
 }
 
 #haters {
-    color:#ff5555;
+    color: #ff5555;
 }
 
 #contactbar {
@@ -262,7 +258,7 @@ a {
     padding-top: 17px;
     font-size: 40px;
     color: black;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #contactexit:hover {
@@ -320,8 +316,8 @@ a {
     font-family: Montserrat;
     color: #f2f2f2;
     display: none;
-    margin-top:230px;
-    position:absolute;
+    margin-top: 230px;
+    position: absolute;
 }
 
 #reviews {
@@ -417,7 +413,7 @@ a {
 #comparison h6 {
     font-size: 7px;
     margin-top: 7px;
-    margin-bottom:7px;
+    margin-bottom: 7px;
 }
 
 #li-us {
@@ -451,16 +447,14 @@ a {
 }
 
 #copyright {
-    height: 150px;
     color: #f9f9f9;
     background-color: #adacac;
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     position: relative;
     text-align: center;
-    overflow-y: scroll;
     font-size: 9px;
 }
 
@@ -480,37 +474,39 @@ a {
 }
 
 #a-info {
-    height:350px;
-    padding-top:200px;
-    padding-bottom:60px;
-    text-align:center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
 }
+
 #a-info p {
-    color:#f2f2f2;
-    font-size:20px;
-    margin-top:25px;
-    margin-left:10%;
-    margin-right:10%;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #a-info h1 {
-    color:#ff5555;
-    font-size:40px;
+    color: #ff5555;
+    font-size: 40px;
 }
+
 #review-section {
-    padding-top:100px;
+    padding-top: 100px;
     height: 1300px;
-    background-color:#adacac;
+    background-color: #adacac;
 }
 
 #review-text {
-    text-align:center;
-    margin-right:10%;
-    margin-left:10%;
-    margin-bottom:100px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 100px;
     font-size: 20px;
-    color:#f2f2f2;
+    color: #f2f2f2;
 }
+
 #review-box {
     width: 65%;
     margin-left: 17.5%;
@@ -528,7 +524,7 @@ a {
     background-color: #52d5f5;
     padding-top: 10px;
     box-shadow: 0px 0px 8.3px #adacac;
-    position:relative;
+    position: relative;
 }
 
 input[type=text] {
@@ -544,7 +540,7 @@ input[type=text] {
     border: 8px solid #f2f2f2;
     box-shadow: inset 0px 0px 3px #adacac, inset 0px 0px 10px #f5f5f5;
     color: #777;
-    cursor:text;
+    cursor: text;
 }
 
 textarea {
@@ -566,13 +562,14 @@ textarea {
     resize: none;
     y-overflow: scroll;
     position: absolute;
-    cursor:text;
+    cursor: text;
 }
 
-input[type=text]:focus, textarea:focus {
-    outline:none;
+input[type=text]:focus,
+textarea:focus {
+    outline: none;
 }
-    
+
 #revSubmit {
     font-family: Montserrat;
     cursor: pointer;
@@ -609,7 +606,7 @@ input[type=text]:focus, textarea:focus {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     position: relative;
-    height:fill;
+    height: fill;
 }
 
 #review p {
@@ -618,20 +615,87 @@ input[type=text]:focus, textarea:focus {
 }
 
 #rev-name {
-    font-family:Montserrat;
+    font-family: Montserrat;
     font-size: 14px;
-    margin-top:5px;
+    margin-top: 5px;
     position: absolute;
 }
 
 #rev-country {
-    color:#0bb5ff;
-    font-size:9px;
-    margin-top:5px;
-    font-family:Montserrat;
+    color: #0bb5ff;
+    font-size: 9px;
+    margin-top: 5px;
+    font-family: Montserrat;
 }
 
 #rev-comments {
     font-size: 12px;
-    margin-bottom:13px;
+    margin-bottom: 13px;
+}
+
+#revSubmit:active {
+    background-color: #c7c7c7;
+}
+
+#review {
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #e6e4e4;
+    color: #777;
+    box-shadow: 0px 0px 20px #999;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    position: relative;
+    height: fill;
+}
+
+#review p {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#rev-name {
+    font-family: Montserrat;
+    font-size: 50px;
+    position: absolute;
+}
+
+#rev-country {
+    color: #0bb5ff;
+    font-size: 35px;
+    margin-top: 7px;
+    font-family: Montserrat;
+}
+
+#rev-comments {
+    font-size: 40px;
+    display: block;
+    overflow-x: none;
+    margin-bottom: 40px;
+}
+
+#safety {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#safety h1 {
+    color: #ff5555;
+}
+
+#safety ul {
+    text-align:left;
+    list-style-type: none;
+    margin-left:15%;
+    margin-right: 9%;
+    margin-top: 1%;
+}
+
+#safety p {
+    font-family: Montserrat;
 }
