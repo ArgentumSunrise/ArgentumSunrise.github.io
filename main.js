@@ -1,6 +1,5 @@
 angular.module('partialsApp',[])
-    .config(function($routeProvider, $locationProvider){
-        $locationProvider.html5Mode(true);
+    .config(function($routeProvider){
         $routeProvider.
             when("/#/", {templateUrl:"home.html"}).
             when("/about",{templateUrl:"about.html"}).
