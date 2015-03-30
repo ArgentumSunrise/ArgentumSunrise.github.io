@@ -1,4 +1,4 @@
-var partialsApp = angular.module('partialsApp',[])
+var partialsApp = angular.module('partialsApp',['ngRoute'])
     partialsApp.config(['$routeProvider',function($routeProvider){
         $routeProvider.
             when("/", {templateUrl:"home.html"}).
