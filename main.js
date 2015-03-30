@@ -58,7 +58,6 @@ $(document).ready(function () {
     var i = 0;
     var eea = 1;
     var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro'];
-    var current = window.location.pathname;
 
     setInterval(function () {
         i++;
@@ -78,7 +77,6 @@ $(document).ready(function () {
         };
     }, 3250);
 
-if(current === "/home.html"||"/home"){
     $('#home-nav').click(function () {
         recursive++;
         $('#r' + recursive).slideDown(300);
@@ -89,7 +87,7 @@ if(current === "/home.html"||"/home"){
             $('#home-nav').css('cursor', 'default');
         };
     });
-}
+    
     $('#contact-nav').click(function () {
         $('#contactbar').slideDown(600);
     });
