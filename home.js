@@ -1,5 +1,10 @@
 $(document).ready(function(){
-  setInterval(function () {
+  
+  var recursive = 0;
+    var i = 0;
+    var eea = 1;
+    var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro']; 
+    setInterval(function () {
         i++;
         if (i <= 15) {
             $('#cornertext').text(names[i - 1]);
