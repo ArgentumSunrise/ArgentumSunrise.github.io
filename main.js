@@ -4,6 +4,7 @@ angular.module('partialsApp',[])
         $routeProvider
             .when("/#/", {templateUrl:"home.html"})
             .when("/about",{templateUrl:"about.html"})
+            .otherwise({redirectTo:"home.html"})
     })
 
 $(document).ready(function () {
