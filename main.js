@@ -1,5 +1,5 @@
-angular.module('partialsApp',[])
-    .config(function($routeProvider){
+var partialsApp = angular.module('partialsApp',[])
+    partialsApp.config(function($routeProvider){
         $routeProvider.
             when("/#/", {templateUrl:"home.html"}).
             when("/about",{templateUrl:"about.html"}).
