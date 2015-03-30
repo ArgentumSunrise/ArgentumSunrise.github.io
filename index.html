@@ -15,7 +15,7 @@
 
 <body>
     <div id='smallscreen'><p>Okay, jerk, here's how this is going down. You're going to get off your iPhone, or your Android, or your Raspberry PI or whatever Japanese jizz-stain you're trying to see this on, and you're going to get a computer. A big-ass fucking computer, with a giant screen and goddamn mountains of RAM, and then you can see this site. DO IT. NOW.<br>Douchebag.</p></div>
-    <div class='wrapper' ng-app='partialsApp'>
+    <div class='wrapper'>
         <div id='allah-e-egg'>
             <iframe id='a-e-i-1' src="//giphy.com/embed/mBuT35D4q4BK8?html5=true"></iframe>
             <iframe id='a-e-i-2' src="//giphy.com/embed/FC4WzgUnsT57i?html5=true"></iframe>
@@ -32,7 +32,9 @@
         </div>
         <div id='nav'><a id='home-nav' href='/home'>Home</a><a href='/about'>About Us</a><a>Locations</a><a>Prices</a><a>Buy A Ticket</a><a id='contact-nav'>Contact Us</a>
         </div>
+        <div ng-app='partialsApp'>
         <ng-view></ng-view>
+        </div>
     </div>
 </body>
 
