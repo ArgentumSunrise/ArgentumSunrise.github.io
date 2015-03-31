@@ -10,6 +10,7 @@ var partialsApp = angular.module('partialsApp',['ngRoute'])
             when("/", {templateUrl:"home.html"}).
             when("/about",{templateUrl:"about.html"}).
             otherwise({redirectTo:"home.html"})
+        $locationProvider.html5(true);
     }]);
 
 $(document).ready(function () {
