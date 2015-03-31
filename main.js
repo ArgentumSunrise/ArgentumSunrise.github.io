@@ -1,4 +1,10 @@
 var partialsApp = angular.module('partialsApp',['ngRoute'])
+    partialsApp.controller('MainController', function($scope, $route, $routeParams, $location) {
+     $scope.$route = $route;
+     $scope.$location = $location;
+     $scope.$routeParams = $routeParams;
+ })
+ 
     partialsApp.config(['$routeProvider',function($routeProvider){
         $routeProvider.
             when("/", {templateUrl:"home.html"}).
