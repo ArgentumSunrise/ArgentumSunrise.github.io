@@ -1,5 +1,5 @@
 var partialsApp = angular.module('partialsApp',['ngRoute'])
-    partialsApp.controller('MainController', function($scope, $route, $routeParams, $location) {
+    partialsApp.controller('PartialsController', function($scope, $route, $routeParams, $location) {
      $scope.$route = $route;
      $scope.$location = $location;
      $scope.$routeParams = $routeParams;
