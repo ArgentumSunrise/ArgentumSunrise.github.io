@@ -9,7 +9,7 @@ var partialsApp = angular.module('partialsApp',['ngRoute'])
         $routeProvider.
             when("/", {templateUrl:"home.html"}, controller: 'PartialsController').
             when("/about",{templateUrl:"about.html", controller: 'PartialsController'}).
-            otherwise({redirectTo:"home.html", controller: 'PartialsController'})
+            otherwise({redirectTo:"/", controller: 'PartialsController'})
         $locationProvider.html5(true);
     }]);
 
