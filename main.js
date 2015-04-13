@@ -12,12 +12,3 @@ var partialsApp = angular.module('partialsApp',['ngRoute'])
             otherwise({redirectTo:"/", controller: 'PartialsController'})
         $locationProvider.html5(true);
     }]);
-
-$(document).ready(function () {
-    $('#contact-nav').click(function () {
-        $('#contactbar').slideDown(600);
-    });
-    $('#contactexit').click(function () {
-        $('#contactbar').slideUp(600);
-    });
-});
