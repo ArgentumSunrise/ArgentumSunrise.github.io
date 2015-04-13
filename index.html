@@ -35,6 +35,16 @@
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.6/angular-route.js"></script>
     </div>
+    <script>
+        $(document).ready(function () {
+    $('#contact-nav').click(function () {
+        $('#contactbar').slideDown(600);
+    });
+    $('#contactexit').click(function () {
+        $('#contactbar').slideUp(600);
+    });
+});
+    </script>
 </body>
 
 </html>
