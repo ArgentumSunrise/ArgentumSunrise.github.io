@@ -11,8 +11,8 @@ var partialsApp = angular.module('partialsApp',['ngRoute'])
  
     partialsApp.config(['$routeProvider',function($routeProvider){
         $routeProvider.
-            when("/rising-sun/", {templateUrl:"home.html"}, controller: 'PartialsController').
-            when("/rising-sun/about",{templateUrl:"about.html", controller: 'PartialsController'}).
-            otherwise({redirectTo:"/rising-sun/", controller: 'PartialsController'})
+            when("/rising-sun/", {templateUrl:"home.html"}).
+            when("/rising-sun/about",{templateUrl:"about.html"}).
+            otherwise({redirectTo:"/rising-sun/"})
         $locationProvider.html5(true);
     }]);
