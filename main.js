@@ -8,8 +8,8 @@ $(document).ready(function(){
     $('#centertext').click(function(){
       $(this).fadeOut(500);
       setTimeout(function(){
-      $(this).html('Fly Rising Sun.<br>Go anywhere you want to.');
-      $(this).css('cursor','default');
+      $('#centertext').html('Fly Rising Sun.<br>Go anywhere you want to.');
+      $('#centertext').css('cursor','default');
     setInterval(function () {
         i++;
         if (i <= 15) {
