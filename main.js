@@ -5,7 +5,7 @@ $(document).ready(function(){
     var eea = 1;
     var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro']; 
     
-    $('centertext').click(function(){
+    $('#centertext').click(function(){
       $(this).fadeOut(500);
       $(this).html('Fly Rising Sun.<br>Go anywhere you want to.');
       $(this).css('cursor','default');
