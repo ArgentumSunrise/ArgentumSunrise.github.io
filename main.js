@@ -8,6 +8,7 @@ $(document).ready(function(){
     $('centertext').click(function(){
       $(this).fadeOut(500);
       $(this).html('Fly Rising Sun.<br>Go anywhere you want to.');
+      $(this).css('cursor','default');
       setTimeout(function(){
     setInterval(function () {
         i++;
