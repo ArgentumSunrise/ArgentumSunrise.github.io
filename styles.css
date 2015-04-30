@@ -530,7 +530,7 @@ a {
     background-color: #52d5f5;
     padding-top: 10px;
     box-shadow: 0px 0px 8.3px #adacac;
-    position: relative;
+    position: absolute;
 }
 
 input[type=text] {
