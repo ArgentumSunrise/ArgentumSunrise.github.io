@@ -325,6 +325,7 @@ a {
     display: none;
     margin-top: 230px;
     position: absolute;
+    cursor: pointer;
 }
 
 #reviews {
