@@ -4,6 +4,11 @@ $(document).ready(function(){
     var i = 0;
     var eea = 1;
     var names = ['London', 'Paris', 'Cape Town', 'Moscow', 'New York', 'Singapore', 'Rome', 'Istanbul', 'Sydney', 'Venice', 'Dubai', 'Honolulu', 'Prague', 'Taipei', 'Rio de Janeiro']; 
+    
+    $('centertext').click(function(){
+      $(this).fadeOut(500);
+      $(this).html('Fly Rising Sun.<br>Go anywhere you want to.');
+      setTimeout(function(){
     setInterval(function () {
         i++;
         if (i <= 15) {
@@ -21,6 +26,8 @@ $(document).ready(function(){
 
         };
     }, 3250);
+      },500);
+    });
 
     $('#home-nav').click(function () {
         recursive++;
