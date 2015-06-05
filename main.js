@@ -1,5 +1,12 @@
 $(document).ready(function(){
   
+    $('#contact-nav').click(function () {
+        $('#contactbar').slideDown(600);
+    });
+    $('#contactexit').click(function () {
+        $('#contactbar').slideUp(600);
+    });
+  
   var recursive = 0;
     var i = 0;
     var eea = 1;
